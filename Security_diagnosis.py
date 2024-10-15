@@ -62,5 +62,5 @@ if login_button:
             st.write(url)
         logger.info('Someone used this service.')
 
-    else:
-        st.error("ユーザー名またはパスワードが間違っています")
+else:
+    st.error("ユーザー名またはパスワードが間違っています")
